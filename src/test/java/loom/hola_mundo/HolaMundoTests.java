@@ -1,4 +1,4 @@
-package loom.holaMundo;
+package loom.hola_mundo;
 
 import org.junit.Assert;
 import org.junit.Test;

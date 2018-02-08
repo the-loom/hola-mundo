@@ -1,4 +1,4 @@
-package loom.holaMundo;
+package loom.hola_mundo;
 
 public class HolaMundo {
 
