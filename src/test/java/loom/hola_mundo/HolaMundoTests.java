@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 
 public class HolaMundoTests {
-    @Test
+    @Test(timeout=1000)
     public void queSaludaCorrectamente() {
         HolaMundo holaMundo = new HolaMundo();
         Assert.assertEquals("¡Hola, Kent Beck!", holaMundo.saludar("Kent Beck"));
